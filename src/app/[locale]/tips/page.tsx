@@ -1,4 +1,10 @@
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Suggerimenti e Itinerari",
+  description: "Itinerari consigliati dal B&B Cattleya Milano. Come raggiungere Duomo, Brera, Navigli, Corso Buenos Aires dalla metro Cimiano M2. Passeggiata Martesana, Ospedale San Raffaele.",
+};
 
 const itineraries = [
   {

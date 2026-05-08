@@ -1,5 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Posizione",
+  description: "Cattleya B&B si trova nel quartiere NoLo, Via Perticari 2, Milano. A 400m dalla metro Cimiano M2, vicino Naviglio Martesana, Ospedale San Raffaele. Collegamento diretto con Duomo, Brera, Navigli.",
+};
 
 export default async function LocationPage() {
   const t = await getTranslations("location");
