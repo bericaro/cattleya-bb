@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "rooms": "Camere",
+    "gallery": "Galleria",
+    "location": "Posizione",
+    "tips": "Suggerimenti",
+    "contact": "Contatti",
+    "reviews": "Dicono di noi"
+  },
+  "hero": {
+    "title": "A Memorable Experience.",
+    "cta": "Contatta ora"
+  },
+  "about": {
+    "title": "About Cattleya",
+    "description": "Il B&B Cattleya prende il suo nome da un fiore tropicale simbolo di eleganza, bellezza e accoglienza. Come questo fiore raro e affascinante, vogliamo offrire ai nostri ospiti un luogo speciale nel cuore di Milano: un ambiente caldo, curato e dal clima quasi familiare, dove sentirsi subito a casa.\nScegliere Cattleya significa vivere Milano con il comfort, la tranquillità e l'attenzione che solo un'accoglienza autentica sa offrire.",
+    "readMore": "Leggi di più"
+  },
+  "location": {
+    "title": "Posizione",
+    "description": "Cattleya Bed & Breakfast è situato nel cuore del quartiere NoLo, a nord est di Milano, in via Perticari 2, angolo via Padova, via molto vivace e multietnica ricca di locali di ogni tipo: ristoranti, negozi, supermercati, farmacie e banche.",
+    "fullDescription": "Cattleya Bed & Breakfast è situato nel cuore del quartiere NoLo, a nord est di Milano, in via Perticari 2, angolo via Padova, via molto vivace e multietnica ricca di locali di ogni tipo: ristoranti, negozi, supermercati, farmacie e banche. È a 400 metri dalla fermata metropolitana di Cimiano (Linea verde) e a pochi passi dal Parco della Martesana. Inoltre, è a 15 minuti dall'ospedale San Raffaele.\nQuesta posizione strategica consente di raggiungere comodamente il centro della città in pochi minuti grazie ai frequenti collegamenti della metropolitana, permettendo di arrivare rapidamente in zone di grande interesse come il Duomo, Brera e Porta Venezia.\nLa struttura si trova inoltre in posizione particolarmente comoda rispetto all'Ospedale San Raffaele, facilmente raggiungibile in pochi minuti, risultando ideale per chi viaggia per motivi di salute o per accompagnare familiari.\nAllo stesso tempo, la vicinanza immediata al Parco della Martesana offre l'opportunità di godere di piacevoli passeggiate, percorsi ciclabili e momenti di relax immersi nel verde, rendendo il soggiorno ideale sia per chi desidera esplorare Milano sia per chi cerca tranquillità e natura senza rinunciare alla comodità dei servizi urbani."
+  },
+  "rooms": {
+    "title": "Le Nostre Camere",
+    "viewRooms": "Guarda",
+    "cattleya": {
+      "name": "CATTLEYA",
+      "description": "La camera Cattleya si trova all'ultimo piano di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano. È attrezzata per ospitare fino a 2 persone, grazie a un comodo divano letto alla francese.\nLa camera, arredata in stile moderno, dispone di un angolo cottura, bagno privato e di un'ampia terrazza, ideale per momenti di relax. È dotata di tutti i principali comfort: TV, connessione Wi-Fi, aria condizionata e zanzariere, per garantire un soggiorno piacevole in ogni periodo dell'anno.\nL'angolo cottura è completo di frigorifero, forno a microonde, due piastre a induzione, bollitore, stoviglie e pentole. Il bagno privato è provvisto di un'ampia doccia, asciugacapelli e lavatrice."
+    },
+    "matcha": {
+      "name": "MATCHA",
+      "description": "Questo grazioso monolocale di 30 mq si trova al 6° piano di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano, sui tetti della vecchia Milano vicino a Via Padova e al Naviglio Martesana fino ad arrivare al nuovo skyline di piazza Gae Aulenti con la Unicredit Tower, il grattacielo più alto d'Italia, e più in là alla Madonnina del nostro Duomo.\nIl monolocale, dotato di tutti i comfort, televisione, aria condizionata e collegamento Wi-Fi, è composto da una grande camera arredata in stile moderno. La struttura è attrezzata per ospitare 2 persone: i letti singoli possono diventare un comodo letto matrimoniale.\nUn monoblocco ospita un angolo cottura attrezzato di tutto punto: frigorifero, forno a microonde, due piastre ad induzione. Completano l'arredamento un tavolo console, una scrivania, una cassettiera, sedie, una poltroncina e una cabina armadio posta nell'antibagno. Il bagno finestrato è dotato di un'ampia doccia, asciugacapelli e prodotti di cortesia.\nIl punto forte della struttura è il terrazzo attrezzato con tavolino e sedie per poter pranzare all'aria aperta e corredato da una piccola veranda."
+    },
+    "sakura": {
+      "name": "SAKURA",
+      "description": "La camera Sakura è una soluzione accogliente e funzionale, ideale per ospitare una persona. Arredata in stile moderno, offre ambienti curati e luminosi, pensati per garantire comfort e praticità durante il soggiorno. La camera dispone di un angolo cottura completamente attrezzato con frigorifero, forno a microonde, due piastre a induzione e bollitore, perfetto per preparare pasti in autonomia.\nIl bagno privato è dotato di doccia, asciugacapelli e kit di cortesia. L'alloggio è inoltre provvisto di tutti i principali comfort, tra cui TV, connessione Wi-Fi, aria condizionata e zanzariere. A completare la struttura, un'ampia terrazza che rappresenta uno spazio ideale per momenti di relax, rendendo la camera Sakura una scelta perfetta sia per brevi soggiorni sia per permanenze più lunghe."
+    }
+  },
+  "gallery": {
+    "title": "La Nostra Galleria",
+    "more": "+ 5"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "send": "Invia",
+    "address": "Via Giulio Perticari, Milano",
+    "phone": "+39",
+    "emailAddress": "cattleya.nolo"
+  },
+  "reviews": {
+    "title": "Dicono di noi",
+    "subtitle": "Le esperienze dei nostri ospiti"
+  },
+  "footer": {
+    "tagline": "Cattleya B&B\nti offrirà il comfort che meriti",
+    "address": "Address: Via Giulio Perticari, Milano",
+    "phone": "Phone number: +39",
+    "email": "Email: cattleya.nolo",
+    "facebook": "FACEBOOK",
+    "instagram": "INSTAGRAM",
+    "twitter": "TWITTER",
+    "snapchat": "SNAP CHAT"
+  }
+}

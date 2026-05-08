@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "rooms": "Chambres",
+    "gallery": "Galerie",
+    "location": "Emplacement",
+    "tips": "Conseils",
+    "contact": "Contact",
+    "reviews": "Avis"
+  },
+  "hero": {
+    "title": "Une Expérience Mémorable.",
+    "cta": "Contactez-nous"
+  },
+  "about": {
+    "title": "À propos de Cattleya",
+    "description": "Le B&B Cattleya tire son nom d'une fleur tropicale symbole d'élégance, de beauté et d'hospitalité. Comme cette fleur rare et fascinante, nous souhaitons offrir à nos hôtes un lieu spécial au cœur de Milano : un environnement chaleureux, soigné et à l'atmosphère presque familiale, où l'on se sent immédiatement chez soi.\nChoisir Cattleya, c'est vivre Milano avec le confort, la tranquillité et l'attention que seule une hospitalité authentique peut offrir.",
+    "readMore": "En savoir plus"
+  },
+  "location": {
+    "title": "Emplacement",
+    "description": "Le Cattleya Bed & Breakfast est situé au cœur du quartier NoLo, au nord-est de Milano, via Perticari 2, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : restaurants, boutiques, supermarchés, pharmacies et banques.",
+    "fullDescription": "Le Cattleya Bed & Breakfast est situé au cœur du quartier NoLo, au nord-est de Milano, via Perticari 2, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : restaurants, boutiques, supermarchés, pharmacies et banques. Il se trouve à 400 mètres de la station de métro Cimiano (Ligne verte) et à quelques pas du Parc de la Martesana. De plus, il est à 15 minutes de l'hôpital San Raffaele.\nCette position stratégique permet de rejoindre confortablement le centre-ville en quelques minutes grâce aux fréquentes liaisons du métro, permettant d'accéder rapidement à des zones d'intérêt majeur comme le Duomo, Brera et Porta Venezia.\nLa structure se trouve également dans une position particulièrement pratique par rapport à l'Hôpital San Raffaele, facilement accessible en quelques minutes, idéale pour ceux qui voyagent pour des raisons de santé ou pour accompagner des membres de leur famille.\nEn même temps, la proximité immédiate du Parc de la Martesana offre l'opportunité de profiter d'agréables promenades, de pistes cyclables et de moments de détente en pleine verdure, rendant le séjour idéal aussi bien pour ceux qui souhaitent explorer Milano que pour ceux qui recherchent tranquillité et nature sans renoncer à la commodité des services urbains."
+  },
+  "rooms": {
+    "title": "Nos Chambres",
+    "viewRooms": "Voir",
+    "cattleya": {
+      "name": "CATTLEYA",
+      "description": "La chambre Cattleya est située au dernier étage d'un immeuble avec ascenseur et bénéficie d'une vue splendide sur la skyline de Milano. Elle est équipée pour accueillir jusqu'à 2 personnes, grâce à un confortable canapé-lit à la française. La chambre, meublée dans un style moderne, dispose d'une kitchenette, d'une salle de bain privée et d'une grande terrasse, idéale pour des moments de détente. L'appartement est doté de tous les principaux conforts : TV, connexion Wi-Fi, climatisation et moustiquaires, pour garantir un séjour agréable en toute saison. La kitchenette est complète avec réfrigérateur, four à micro-ondes, deux plaques à induction, bouilloire, vaisselle et casseroles. La salle de bain privée est équipée d'une grande douche, d'un sèche-cheveux et d'une machine à laver."
+    },
+    "matcha": {
+      "name": "MATCHA",
+      "description": "Ce charmant studio de 30 m² se trouve au 6ème étage d'un immeuble avec ascenseur et bénéficie d'une splendide vue sur la skyline de Milano, sur les toits du vieux Milano près de Via Padova et du Naviglio Martesana, jusqu'à la nouvelle skyline de Piazza Gae Aulenti avec la Unicredit Tower, le gratte-ciel le plus haut d'Italie, et plus loin la Madonnina de notre Duomo.\nLe studio, doté de tout le confort, télévision, climatisation et Wi-Fi, comprend une grande chambre meublée dans un style moderne. La structure peut accueillir 2 personnes : les lits simples peuvent devenir un confortable lit double.\nUn bloc cuisine est entièrement équipé : réfrigérateur, four à micro-ondes, deux plaques à induction. Le mobilier comprend une table console, un bureau, une commode, des chaises, un fauteuil et un dressing situé dans l'antichambre de la salle de bain. La salle de bain avec fenêtre est dotée d'une grande douche, d'un sèche-cheveux et de produits de courtoisie.\nLe point fort de la structure est la terrasse équipée d'une table et de chaises pour déjeuner en plein air, complétée par une petite véranda."
+    },
+    "sakura": {
+      "name": "SAKURA",
+      "description": "La chambre Sakura est une solution accueillante et fonctionnelle, idéale pour accueillir une personne. Meublée dans un style moderne, elle offre des espaces soignés et lumineux, conçus pour garantir confort et praticité durant le séjour. La chambre dispose d'une kitchenette entièrement équipée avec réfrigérateur, four à micro-ondes, deux plaques à induction et bouilloire, parfaite pour préparer des repas en autonomie. La salle de bain privée est dotée d'une douche, d'un sèche-cheveux et d'un kit de courtoisie. Le logement est également pourvu de tous les principaux conforts, dont TV, Wi-Fi, climatisation et moustiquaires. La structure est complétée par une grande terrasse qui représente un espace idéal pour des moments de détente, faisant de la chambre Sakura un choix parfait pour les courts séjours comme pour les séjours prolongés."
+    }
+  },
+  "gallery": {
+    "title": "Notre Galerie",
+    "more": "+ 5"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "address": "Via Giulio Perticari, Milano",
+    "phone": "+39",
+    "emailAddress": "cattleya.nolo"
+  },
+  "reviews": {
+    "title": "Avis",
+    "subtitle": "Les expériences de nos hôtes"
+  },
+  "footer": {
+    "tagline": "Cattleya B&B\nvous offrira le confort que vous méritez",
+    "address": "Adresse : Via Giulio Perticari, Milano",
+    "phone": "Téléphone : +39",
+    "email": "Email : cattleya.nolo",
+    "facebook": "FACEBOOK",
+    "instagram": "INSTAGRAM",
+    "twitter": "TWITTER",
+    "snapchat": "SNAP CHAT"
+  }
+}

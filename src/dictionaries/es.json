@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "rooms": "Habitaciones",
+    "gallery": "Galería",
+    "location": "Ubicación",
+    "tips": "Sugerencias",
+    "contact": "Contacto",
+    "reviews": "Opiniones"
+  },
+  "hero": {
+    "title": "Una Experiencia Memorable.",
+    "cta": "Contáctanos ahora"
+  },
+  "about": {
+    "title": "Sobre Cattleya",
+    "description": "El B&B Cattleya toma su nombre de una flor tropical símbolo de elegancia, belleza y hospitalidad. Como esta flor rara y fascinante, queremos ofrecer a nuestros huéspedes un lugar especial en el corazón de Milano: un ambiente cálido, cuidado y con un clima casi familiar, donde sentirse inmediatamente como en casa.\nElegir Cattleya significa vivir Milano con el confort, la tranquilidad y la atención que solo una hospitalidad auténtica puede ofrecer.",
+    "readMore": "Leer más"
+  },
+  "location": {
+    "title": "Ubicación",
+    "description": "Cattleya Bed & Breakfast está situado en el corazón del barrio NoLo, al noreste de Milano, en via Perticari 2, esquina con via Padova, una calle muy animada y multiétnica llena de todo tipo de locales: restaurantes, tiendas, supermercados, farmacias y bancos.",
+    "fullDescription": "Cattleya Bed & Breakfast está situado en el corazón del barrio NoLo, al noreste de Milano, en via Perticari 2, esquina con via Padova, una calle muy animada y multiétnica llena de todo tipo de locales: restaurantes, tiendas, supermercados, farmacias y bancos. Se encuentra a 400 metros de la parada de metro Cimiano (Línea verde) y a pocos pasos del Parque de la Martesana. Además, está a 15 minutos del hospital San Raffaele.\nEsta posición estratégica permite llegar cómodamente al centro de la ciudad en pocos minutos gracias a las frecuentes conexiones del metro, permitiendo acceder rápidamente a zonas de gran interés como el Duomo, Brera y Porta Venezia.\nLa estructura se encuentra además en una posición particularmente cómoda respecto al Hospital San Raffaele, fácilmente accesible en pocos minutos, resultando ideal para quienes viajan por motivos de salud o para acompañar a familiares.\nAl mismo tiempo, la cercanía inmediata al Parque de la Martesana ofrece la oportunidad de disfrutar de agradables paseos, rutas ciclistas y momentos de relax rodeados de naturaleza, haciendo que la estancia sea ideal tanto para quienes desean explorar Milano como para quienes buscan tranquilidad y naturaleza sin renunciar a la comodidad de los servicios urbanos."
+  },
+  "rooms": {
+    "title": "Nuestras Habitaciones",
+    "viewRooms": "Ver",
+    "cattleya": {
+      "name": "CATTLEYA",
+      "description": "La habitación Cattleya está ubicada en el último piso de un edificio con ascensor y disfruta de una espléndida vista del skyline de Milano. Está equipada para alojar hasta 2 personas, gracias a un cómodo sofá cama a la francesa. La habitación, amueblada en estilo moderno, dispone de cocina americana, baño privado y una amplia terraza, ideal para momentos de relax. El apartamento está dotado de todas las comodidades principales: TV, conexión Wi-Fi, aire acondicionado y mosquiteras, para garantizar una estancia agradable en cualquier época del año. La cocina americana cuenta con frigorífico, microondas, dos placas de inducción, hervidor, vajilla y ollas. El baño privado está equipado con una amplia ducha, secador de pelo y lavadora."
+    },
+    "matcha": {
+      "name": "MATCHA",
+      "description": "Este encantador estudio de 30 m² se encuentra en el 6° piso de un edificio con ascensor y disfruta de una espléndida vista del skyline de Milano, sobre los tejados del viejo Milano cerca de Via Padova y del Naviglio Martesana, hasta llegar al nuevo skyline de Piazza Gae Aulenti con la Unicredit Tower, el rascacielos más alto de Italia, y más allá la Madonnina de nuestro Duomo.\nEl estudio, dotado de todas las comodidades, televisión, aire acondicionado y Wi-Fi, cuenta con una gran habitación amueblada en estilo moderno. La estructura puede alojar a 2 personas: las camas individuales pueden convertirse en una cómoda cama de matrimonio.\nUna cocina americana está completamente equipada: frigorífico, microondas, dos placas de inducción. Completan el mobiliario una mesa consola, un escritorio, una cómoda, sillas, un sillón y un vestidor situado en el anterbaño. El baño con ventana está equipado con una amplia ducha, secador de pelo y productos de cortesía.\nEl punto fuerte de la estructura es la terraza equipada con mesa y sillas para almorzar al aire libre, complementada con una pequeña veranda."
+    },
+    "sakura": {
+      "name": "SAKURA",
+      "description": "La habitación Sakura es una solución acogedora y funcional, ideal para alojar a una persona. Amueblada en estilo moderno, ofrece ambientes cuidados y luminosos, pensados para garantizar confort y practicidad durante la estancia. La habitación dispone de una cocina americana completamente equipada con frigorífico, microondas, dos placas de inducción y hervidor, perfecta para preparar comidas de forma autónoma. El baño privado cuenta con ducha, secador de pelo y kit de cortesía. El alojamiento está además provisto de todas las comodidades principales, incluyendo TV, Wi-Fi, aire acondicionado y mosquiteras. La estructura se completa con una amplia terraza que representa un espacio ideal para momentos de relax, haciendo de la habitación Sakura una elección perfecta tanto para estancias cortas como prolongadas."
+    }
+  },
+  "gallery": {
+    "title": "Nuestra Galería",
+    "more": "+ 5"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "address": "Via Giulio Perticari, Milano",
+    "phone": "+39",
+    "emailAddress": "cattleya.nolo"
+  },
+  "reviews": {
+    "title": "Opiniones",
+    "subtitle": "Las experiencias de nuestros huéspedes"
+  },
+  "footer": {
+    "tagline": "Cattleya B&B\nte dará el confort que mereces",
+    "address": "Dirección: Via Giulio Perticari, Milano",
+    "phone": "Teléfono: +39",
+    "email": "Email: cattleya.nolo",
+    "facebook": "FACEBOOK",
+    "instagram": "INSTAGRAM",
+    "twitter": "TWITTER",
+    "snapchat": "SNAP CHAT"
+  }
+}
