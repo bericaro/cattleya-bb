@@ -1,10 +1,41 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("sending");
+
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem("name") as HTMLInputElement).value,
+      email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        setStatus("sent");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
 
   return (
     <div className="pt-24">
@@ -22,7 +53,7 @@ export default function ContactPage() {
 
         <div className="mt-12 grid gap-20 lg:grid-cols-2">
           {/* Contact Form */}
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="mb-2 block text-xs font-bold uppercase tracking-wider text-[#4F4F4F]">
                 {t("name")}
@@ -64,10 +95,22 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="bg-[#ED3FC1] px-8 py-3 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#d635ab]"
+              disabled={status === "sending"}
+              className="bg-[#ED3FC1] px-8 py-3 text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-[#d635ab] disabled:opacity-50"
             >
-              {t("send")}
+              {status === "sending" ? "Invio in corso..." : t("send")}
             </button>
+
+            {status === "sent" && (
+              <p className="text-sm font-bold text-[#18A538]">
+                Messaggio inviato con successo! Ti risponderemo al più presto.
+              </p>
+            )}
+            {status === "error" && (
+              <p className="text-sm font-bold text-[#E4002B]">
+                Errore nell&apos;invio. Riprova o contattaci direttamente per telefono.
+              </p>
+            )}
           </form>
 
           {/* Contact Info */}
