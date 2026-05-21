@@ -11,6 +11,16 @@ interface GalleryModalProps {
 export default function GalleryModal({ images, trigger }: GalleryModalProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
+  const [dragStartX, setDragStartX] = useState<number | null>(null);
+
+  const handleDragEnd = (clientX: number) => {
+    if (dragStartX === null || selected === null) return;
+    const dx = clientX - dragStartX;
+    setDragStartX(null);
+    const threshold = 50;
+    if (dx > threshold && selected > 0) setSelected(selected - 1);
+    else if (dx < -threshold && selected < images.length - 1) setSelected(selected + 1);
+  };
 
   return (
     <>
@@ -113,12 +123,19 @@ export default function GalleryModal({ images, trigger }: GalleryModalProps) {
           )}
 
           {/* Image */}
-          <div className="relative h-[80vh] w-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="relative h-[80vh] w-full max-w-4xl cursor-grab touch-pan-y select-none active:cursor-grabbing"
+            onClick={(e) => e.stopPropagation()}
+            onPointerDown={(e) => setDragStartX(e.clientX)}
+            onPointerUp={(e) => handleDragEnd(e.clientX)}
+            onPointerLeave={(e) => handleDragEnd(e.clientX)}
+          >
             <Image
               src={images[selected].src}
               alt={images[selected].alt}
               fill
-              className="object-contain"
+              draggable={false}
+              className="pointer-events-none object-contain"
             />
           </div>
 
