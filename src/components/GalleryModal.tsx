@@ -124,11 +124,10 @@ export default function GalleryModal({ images, trigger }: GalleryModalProps) {
 
           {/* Image */}
           <div
-            className="relative h-[80vh] w-full max-w-4xl cursor-grab touch-pan-y select-none active:cursor-grabbing"
+            className="relative h-[80vh] w-full max-w-4xl touch-pan-y select-none"
             onClick={(e) => e.stopPropagation()}
-            onPointerDown={(e) => setDragStartX(e.clientX)}
-            onPointerUp={(e) => handleDragEnd(e.clientX)}
-            onPointerLeave={(e) => handleDragEnd(e.clientX)}
+            onPointerDown={(e) => { if (e.pointerType !== "mouse") setDragStartX(e.clientX); }}
+            onPointerUp={(e) => { if (e.pointerType !== "mouse") handleDragEnd(e.clientX); }}
           >
             <Image
               src={images[selected].src}
