@@ -38,19 +38,18 @@ const matchaImages = [
 ];
 
 const sakuraImages = [
-  { src: "/images/sakura-1.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-2.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-3.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-4.jpeg", alt: "Camera Sakura" },
   { src: "/images/sakura-5.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-6.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-7.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-8.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-9.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-10.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-11.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-12.jpeg", alt: "Camera Sakura" },
-  { src: "/images/sakura-13.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo1.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo2.jpeg", alt: "Camera Sakura" },
+  { src: "/images/cellmomo3.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo4.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo5.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo6.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo7.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo8.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo9.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo10.jpeg", alt: "Camera Sakura" },
+  { src: "/images/fotocellmomo11.jpeg", alt: "Camera Sakura" },
 ];
 
 interface Props {
@@ -149,7 +148,7 @@ export default function RoomsClient({ translations: t }: Props) {
         <div className="flex h-[350px] gap-2 overflow-hidden">
           <div className="relative h-full w-3/5 flex-shrink-0">
             <Image
-              src="/images/sakura-1.jpeg"
+              src="/images/sakura-5.jpeg"
               alt="Camera Sakura"
               fill
               className="object-cover"
@@ -158,7 +157,7 @@ export default function RoomsClient({ translations: t }: Props) {
           <div className="flex h-full w-2/5 flex-col gap-2">
             <div className="relative flex-1 overflow-hidden">
               <Image
-                src="/images/sakura-2.jpeg"
+                src="/images/fotocellmomo1.jpeg"
                 alt="Camera Sakura"
                 fill
                 className="object-cover"
@@ -166,7 +165,7 @@ export default function RoomsClient({ translations: t }: Props) {
             </div>
             <div className="relative flex-1 overflow-hidden">
               <Image
-                src="/images/sakura-3.jpeg"
+                src="/images/fotocellmomo2.jpeg"
                 alt="Camera Sakura"
                 fill
                 className="object-cover"

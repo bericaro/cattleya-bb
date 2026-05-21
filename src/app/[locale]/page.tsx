@@ -61,15 +61,17 @@ export default async function HomePage() {
               </p>
             </div>
             <div className="relative md:col-span-3">
-              <div className="relative aspect-[4/3] overflow-hidden rounded-sm shadow-xl">
+              <div className="relative aspect-[4/3]">
+                {/* macchie di colore sfumate, senza bordi (stile acquerello) */}
+                <div className="absolute left-[12%] top-[10%] h-3/4 w-3/4 rounded-full bg-[#9B51E0]/40 blur-3xl" />
+                <div className="absolute right-[10%] bottom-[8%] h-3/4 w-3/4 rounded-full bg-[#ED3FC1]/40 blur-3xl" />
                 <Image
-                  src="/images/about-room.jpg"
-                  alt="Cattleya B&B"
+                  src="/images/about-flower.png"
+                  alt="Orchidea Cattleya"
                   fill
-                  className="object-cover"
+                  className="relative object-contain p-6"
                 />
               </div>
-              <div className="absolute -bottom-4 -left-4 -z-10 h-full w-full rounded-sm border border-[#9B51E0]/20" />
             </div>
           </div>
         </div>
@@ -81,16 +83,13 @@ export default async function HomePage() {
           src="/images/room-cattleya.jpg"
           alt="Le Nostre Camere"
           fill
-          className="object-cover"
+          className="object-cover object-bottom"
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-          <h2 className="text-3xl font-bold tracking-wide md:text-5xl bg-gradient-to-r from-[#E4002B] via-[#FF6B6B] to-[#E4002B] bg-clip-text text-transparent">
-            {rooms("title")}
-          </h2>
           <Link
             href="/rooms"
-            className="mt-8 inline-block border-2 border-white bg-transparent px-8 py-3 text-xs font-bold text-white transition-colors hover:bg-white hover:text-[#4F4F4F]"
+            className="inline-block border-2 border-white bg-transparent px-8 py-3 text-xs font-bold text-white transition-colors hover:bg-white hover:text-[#4F4F4F]"
           >
             {rooms("viewRooms")}
           </Link>

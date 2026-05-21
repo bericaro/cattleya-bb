@@ -155,66 +155,69 @@ interface Stop {
 }
 
 function MiniMetroMap({ stops, color }: { stops: Stop[]; color: string }) {
+  const gapColor = (j: number) =>
+    stops[j + 1].lineColor !== stops[j].lineColor
+      ? `${stops[j].lineColor}60`
+      : stops[j].lineColor;
   return (
-    <div className="mt-4 rounded-sm bg-gray-50 px-5 py-4 overflow-x-auto">
-      <div className="inline-flex items-center gap-0">
+    <div className="mt-4 overflow-x-auto rounded-sm bg-gray-50 px-5 py-4">
+      <div className="flex w-max items-start gap-0">
         {stops.map((stop, i) => (
-          <div key={i} className="flex items-center">
-            <div className="flex flex-col items-center">
-              {/* Change badge */}
-              {stop.change && (
+          <div key={i} className="flex w-16 flex-shrink-0 flex-col items-center">
+            {/* Change badge */}
+            {stop.change ? (
+              <span
+                className="mb-1 rounded-full px-2 py-0.5 text-[9px] font-bold text-white"
+                style={{ backgroundColor: stop.lineColor }}
+              >
+                {stop.change}
+              </span>
+            ) : (
+              <div className="mb-1 h-[18px]" />
+            )}
+
+            {/* Dot row con connettori agganciati ai pallini */}
+            <div className="relative flex h-5 w-full items-center justify-center">
+              {i > 0 && (
                 <span
-                  className="mb-1 rounded-full px-2 py-0.5 text-[9px] font-bold text-white"
-                  style={{ backgroundColor: stop.lineColor }}
-                >
-                  {stop.change}
-                </span>
+                  className="absolute left-0 top-1/2 h-[3px] w-1/2 -translate-y-1/2"
+                  style={{ backgroundColor: gapColor(i - 1) }}
+                />
               )}
-              {!stop.change && !stop.walkIcon && <div className="mb-1 h-[18px]" />}
-              {/* Walk icon instead of dot */}
-              {stop.walkIcon ? (
-                <div className="mb-1 flex flex-col items-center">
-                  <svg className="h-5 w-5" style={{ color: stop.lineColor }} fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-3.6 5.3L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.9-.8" />
-                  </svg>
-                </div>
-              ) : (
-                /* Dot */
+              {i < stops.length - 1 && (
                 <span
-                  className="rounded-full"
+                  className="absolute right-0 top-1/2 h-[3px] w-1/2 -translate-y-1/2"
+                  style={{ backgroundColor: gapColor(i) }}
+                />
+              )}
+              {stop.walkIcon ? (
+                <svg className="relative h-5 w-5" style={{ color: stop.lineColor }} fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-3.6 5.3L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.9-.8" />
+                </svg>
+              ) : (
+                <span
+                  className="relative rounded-full"
                   style={{
                     width: stop.active ? 16 : 10,
                     height: stop.active ? 16 : 10,
-                    backgroundColor: stop.active ? stop.lineColor : "transparent",
+                    backgroundColor: stop.active ? stop.lineColor : "#f9fafb",
                     border: `2.5px solid ${stop.lineColor}`,
                   }}
                 />
               )}
-              {/* Name */}
-              <span
-                className="mt-2 text-center leading-tight"
-                style={{
-                  fontSize: stop.active ? 11 : 9,
-                  fontWeight: stop.active ? 800 : 600,
-                  color: stop.active ? stop.lineColor : "#4F4F4F99",
-                  maxWidth: 55,
-                }}
-              >
-                {stop.name}
-              </span>
             </div>
-            {/* Connecting line */}
-            {i < stops.length - 1 && (
-              <div
-                className="h-[3px] w-5"
-                style={{
-                  backgroundColor:
-                    stops[i + 1].lineColor !== stop.lineColor
-                      ? `${stop.lineColor}60`
-                      : stop.lineColor,
-                }}
-              />
-            )}
+
+            {/* Name */}
+            <span
+              className="mt-2 text-center leading-tight"
+              style={{
+                fontSize: stop.active ? 11 : 9,
+                fontWeight: stop.active ? 800 : 600,
+                color: stop.active ? stop.lineColor : "#4F4F4F99",
+              }}
+            >
+              {stop.name}
+            </span>
           </div>
         ))}
       </div>
@@ -308,23 +311,22 @@ export default function TipsPage() {
           </div>
 
           <div className="overflow-hidden rounded-sm border border-[#ED3FC1]/15 bg-gradient-to-r from-[#fdf2fb] to-[#f9f5fc]">
-            <div className="flex flex-col md:flex-row">
-              {/* Photos */}
-              <div className="flex w-full md:w-56 md:flex-shrink-0">
-                <div className="relative flex-1">
-                  <div className="relative aspect-[3/4] md:aspect-auto md:h-full">
-                    <Image src="/images/fluid.png" alt="Fluid Caffè" fill className="object-cover" />
-                  </div>
+            <div className="grid md:grid-cols-2">
+              {/* Collage foto (intere, senza ritaglio) */}
+              <div className="grid grid-cols-2 gap-2 p-4 md:p-6">
+                <div className="col-span-2 overflow-hidden rounded-sm">
+                  <Image src="/images/fluid.jpeg" alt="Fluid Caffè - dehors" width={864} height={486} className="h-auto w-full" />
                 </div>
-                <div className="relative flex-1">
-                  <div className="relative aspect-[3/4] md:aspect-auto md:h-full">
-                    <Image src="/images/fuid2.png" alt="Fluid Caffè" fill className="object-cover" />
-                  </div>
+                <div className="relative aspect-square overflow-hidden rounded-sm">
+                  <Image src="/images/fluidalex-crop.jpeg" alt="Fluid Caffè" fill className="object-cover" />
+                </div>
+                <div className="relative aspect-square overflow-hidden rounded-sm">
+                  <Image src="/images/fuid2.png" alt="Fluid Caffè - colazione" fill className="object-cover" />
                 </div>
               </div>
 
               {/* Content */}
-              <div className="flex-1 px-6 py-8 md:px-8">
+              <div className="flex flex-col justify-center px-6 py-8 md:px-8 md:py-10">
                 <h3 className="text-lg font-bold text-[#4F4F4F]">Fluid Caffè</h3>
                 <p className="mt-1 text-xs text-[#4F4F4F]/60">Viale Don Luigi Orione 21, Milano</p>
                 <p className="mt-1 text-xs font-bold uppercase tracking-wider text-[#ED3FC1]">Colazione, Pranzo &amp; Aperitivo</p>
