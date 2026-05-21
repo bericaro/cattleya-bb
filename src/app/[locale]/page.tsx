@@ -51,13 +51,13 @@ export default async function HomePage() {
               </h2>
               <div className="mt-2 h-[2px] w-12 bg-gradient-to-r from-[#9B51E0] to-[#ED3FC1]" />
               <p className="mt-8 text-sm leading-8 text-[#4F4F4F]">
-                Il <strong className="text-[#9B51E0]">B&B Cattleya</strong> prende il suo nome da un <strong>fiore tropicale</strong> simbolo di <strong>eleganza, bellezza e accoglienza</strong>.
+                {about.rich("p1", { b: (chunks) => <strong className="text-[#9B51E0]">{chunks}</strong> })}
               </p>
               <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-                Come questo fiore raro e affascinante, vogliamo offrire ai nostri ospiti un luogo speciale nel <strong>cuore di Milano</strong>: un ambiente caldo, curato e dal clima quasi familiare, dove sentirsi subito a casa.
+                {about.rich("p2", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
               <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-                Scegliere Cattleya significa vivere Milano con il <strong>comfort</strong>, la <strong>tranquillità</strong> e l&apos;attenzione che solo un&apos;accoglienza autentica sa offrire.
+                {about.rich("p3", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
             </div>
             <div className="relative md:col-span-3">
@@ -110,7 +110,7 @@ export default async function HomePage() {
               </h2>
               <div className="mt-2 h-[2px] w-12 bg-gradient-to-r from-[#9B51E0] to-[#ED3FC1]" />
               <p className="mt-8 text-sm leading-8 text-[#4F4F4F]">
-                Cattleya Bed &amp; Breakfast è situato nel cuore del <strong>quartiere NoLo</strong>, a nord est di Milano, in <strong>via Perticari 2</strong>, angolo via Padova, via molto vivace e multietnica ricca di locali di ogni tipo: <strong>ristoranti, negozi, supermercati, farmacie e banche</strong>.
+                {location.rich("preview", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
               <Link
                 href="/location"

@@ -155,10 +155,10 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#9B51E0]">Telefono</p>
-                <a href="tel:+393388277390" className="mt-1 block text-sm text-[#4F4F4F] transition-colors hover:text-[#9B51E0]">
+                <a href="tel:+393388277390" className="mt-1 block text-sm text-[#4F4F4F] no-underline transition-colors hover:text-[#9B51E0]">
                   +39 338 827 7390
                 </a>
-                <a href="tel:+393401603940" className="block text-sm text-[#4F4F4F] transition-colors hover:text-[#9B51E0]">
+                <a href="tel:+393401603940" className="block text-sm text-[#4F4F4F] no-underline transition-colors hover:text-[#9B51E0]">
                   +39 340 160 3940
                 </a>
               </div>

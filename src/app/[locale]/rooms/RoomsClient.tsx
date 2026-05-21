@@ -109,7 +109,7 @@ export default function RoomsClient({ translations: t }: Props) {
                 trigger={
                   <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors hover:bg-black/40 cursor-pointer">
                     <span className="text-3xl font-medium text-white">
-                      {t.more}
+                      + {cattleyaImages.length - 3}
                     </span>
                   </div>
                 }
@@ -120,13 +120,19 @@ export default function RoomsClient({ translations: t }: Props) {
 
         <div className="mt-8">
           <p className="mt-6 text-sm leading-8 text-[#4F4F4F]">
-            La camera Cattleya si trova all&apos;<strong>ultimo piano</strong> di un edificio con ascensore e gode di una <strong>splendida vista sullo skyline di Milano</strong>. È attrezzata per ospitare fino a <strong>2 persone</strong>, grazie a un comodo divano letto alla francese.
+            L&apos;ampia <strong className="text-[#E4002B]">camera Cattleya</strong>{" "}è una soluzione confortevole e versatile, ideale per ospitare <strong className="text-[#E4002B]">fino a 2 persone</strong>{" "}grazie a un <strong className="text-[#E4002B]">comodo divano letto alla francese</strong>. Situata al 6° piano di un edificio con ascensore, gode di una splendida vista sullo skyline di Milano ed è arredata in stile moderno con ambienti luminosi e curati nei dettagli.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            La camera, arredata in <strong>stile moderno</strong>, dispone di un <strong>angolo cottura</strong>, <strong>bagno privato</strong> e di un&apos;ampia <strong>terrazza</strong>, ideale per momenti di relax. È dotata di tutti i principali comfort: <strong>TV, Wi-Fi, aria condizionata</strong> e zanzariere.
+            La camera è dotata di tutti i comfort essenziali — <strong className="text-[#E4002B]">TV, aria condizionata, zanzariere e Wi-Fi</strong>{" "}— ed è progettata per garantire praticità e autonomia durante la permanenza. Con un semplice gesto, il letto può essere richiuso trasformandosi in un comodo divano, così da rendere l&apos;ambiente ancora più spazioso e vivibile.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            L&apos;angolo cottura è completo di <strong>frigorifero, forno a microonde, due piastre a induzione</strong>, bollitore, stoviglie e pentole. Il bagno privato è provvisto di un&apos;ampia <strong>doccia</strong>, asciugacapelli e <strong>lavatrice</strong>.
+            <strong className="text-[#E4002B]">L&apos;angolo cottura</strong>, completamente attrezzato, dispone di frigorifero, forno a microonde, due piastre a induzione, bollitore, stoviglie e pentole, ideale per preparare pasti in totale indipendenza.
+          </p>
+          <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
+            Il <strong className="text-[#E4002B]">bagno privato</strong>{" "}è completo di un&apos;ampia doccia, asciugacapelli e lavatrice.
+          </p>
+          <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
+            A completare la struttura, <strong className="text-[#E4002B]">un&apos;ampia terrazza attrezzata</strong>{" "}rappresenta uno spazio piacevole e riservato dove rilassarsi all&apos;aria aperta e godersi momenti di tranquillità durante il soggiorno.
           </p>
         </div>
       </section>
@@ -170,7 +176,7 @@ export default function RoomsClient({ translations: t }: Props) {
                 trigger={
                   <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors hover:bg-black/40 cursor-pointer">
                     <span className="text-3xl font-medium text-white">
-                      {t.more}
+                      + {sakuraImages.length - 3}
                     </span>
                   </div>
                 }
@@ -181,13 +187,19 @@ export default function RoomsClient({ translations: t }: Props) {
 
         <div className="mt-8">
           <p className="mt-6 text-sm leading-8 text-[#4F4F4F]">
-            La camera Sakura è una soluzione <strong>accogliente e funzionale</strong>, ideale per ospitare <strong>una persona</strong>. Arredata in stile moderno, offre ambienti curati e luminosi, pensati per garantire <strong>comfort e praticità</strong> durante il soggiorno.
+            La <strong className="text-[#0076C8]">camera Sakura</strong>{" "}è una soluzione accogliente e funzionale, ideale per ospitare <strong className="text-[#0076C8]">una persona</strong>. Situata in un ambiente tranquillo e luminoso al <strong>6° piano</strong>{" "}di un edificio con ascensore, è arredata in stile moderno con attenzione ai dettagli, per offrire un soggiorno confortevole e rilassante.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            La camera dispone di un <strong>angolo cottura completamente attrezzato</strong> con frigorifero, forno a microonde, due piastre a induzione e bollitore, perfetto per preparare pasti in autonomia.
+            La camera è dotata di tutti i comfort essenziali — <strong className="text-[#0076C8]">TV, aria condizionata, zanzariere e Wi-Fi</strong>{" "}— ed è pensata per garantire praticità e autonomia durante la permanenza.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            Il <strong>bagno privato</strong> è dotato di doccia, asciugacapelli e kit di cortesia. A completare la struttura, un&apos;ampia <strong>terrazza</strong> che rappresenta uno spazio ideale per momenti di relax.
+            <strong className="text-[#0076C8]">L&apos;angolo cottura</strong>, completamente attrezzato, dispone di frigorifero, forno a microonde, due piastre a induzione e bollitore, ideale per preparare pasti in totale indipendenza.
+          </p>
+          <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
+            Il <strong className="text-[#0076C8]">bagno privato</strong>{" "}è completo di doccia, asciugacapelli e prodotti di cortesia.
+          </p>
+          <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
+            A completare la struttura, <strong className="text-[#0076C8]">un&apos;ampia terrazza attrezzata</strong>{" "}con tavolino e sedie rappresenta uno spazio piacevole e riservato dove rilassarsi all&apos;aria aperta, leggere un libro o godersi momenti di tranquillità durante il soggiorno.
           </p>
         </div>
       </section>
@@ -230,7 +242,7 @@ export default function RoomsClient({ translations: t }: Props) {
                 trigger={
                   <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors hover:bg-black/40 cursor-pointer">
                     <span className="text-3xl font-medium text-white">
-                      {t.more}
+                      + {matchaImages.length - 3}
                     </span>
                   </div>
                 }
@@ -241,16 +253,16 @@ export default function RoomsClient({ translations: t }: Props) {
 
         <div className="mt-8">
           <p className="mt-6 text-sm leading-8 text-[#4F4F4F]">
-            Questo grazioso <strong>monolocale di 30 mq</strong> si trova al <strong>6° piano</strong> di un edificio con ascensore e gode di una <strong>splendida vista sullo skyline di Milano</strong>, sui tetti della vecchia Milano vicino a Via Padova e al Naviglio Martesana fino ad arrivare al nuovo skyline di <strong>piazza Gae Aulenti</strong> con la <strong>Unicredit Tower</strong>.
+            Questo grazioso <strong className="text-[#18A538]">monolocale di 30 mq</strong>{" "}si trova al <strong>6° piano</strong>{" "}di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano, sui tetti della vecchia Milano vicino a Via Padova e al Naviglio Martesana fino ad arrivare al nuovo skyline di piazza Gae Aulenti con la Unicredit Tower.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            Il monolocale, dotato di tutti i comfort — <strong>TV, aria condizionata e Wi-Fi</strong> — è composto da una grande camera arredata in stile moderno. La struttura è attrezzata per ospitare <strong>2 persone</strong>: i letti singoli possono diventare un comodo <strong>letto matrimoniale</strong>.
+            Il monolocale, dotato di tutti i comfort — <strong className="text-[#18A538]">TV, aria condizionata e Wi-Fi</strong>{" "}— è composto da una grande camera arredata in stile moderno. La struttura è attrezzata per ospitare <strong className="text-[#18A538]">2 persone</strong>: i letti singoli possono diventare un comodo <strong>letto matrimoniale</strong>.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            Un monoblocco ospita un <strong>angolo cottura attrezzato</strong>: frigorifero, forno a microonde, due piastre ad induzione. Il <strong>bagno finestrato</strong> è dotato di un&apos;ampia doccia, asciugacapelli e prodotti di cortesia.
+            Un monoblocco ospita un <strong className="text-[#18A538]">angolo cottura</strong>{" "}attrezzato: frigorifero, forno a microonde, due piastre ad induzione. Il <strong className="text-[#18A538]">bagno finestrato</strong>{" "}è dotato di un&apos;ampia doccia, asciugacapelli e prodotti di cortesia.
           </p>
           <p className="mt-4 text-sm leading-8 text-[#4F4F4F]">
-            Il punto forte è il <strong className="text-[#18A538]">terrazzo attrezzato</strong> con tavolino e sedie per pranzare all&apos;aria aperta, corredato da una piccola <strong>veranda</strong>.
+            Il punto forte è il <strong className="text-[#18A538]">terrazzo attrezzato</strong>{" "}con tavolino e sedie per pranzare all&apos;aria aperta, corredato da una piccola <strong>veranda</strong>.
           </p>
         </div>
       </section>

@@ -25,6 +25,7 @@ const roboto = Roboto({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cattleya-bb.vercel.app"),
   title: {
     default: "Cattleya Bed & Breakfast Milano | B&B NoLo quartiere Via Padova",
     template: "%s | Cattleya B&B Milano",

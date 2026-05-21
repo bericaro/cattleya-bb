@@ -14,13 +14,23 @@
   },
   "about": {
     "title": "À propos de Cattleya",
-    "description": "Le B&B Cattleya tire son nom d'une fleur tropicale symbole d'élégance, de beauté et d'hospitalité. Comme cette fleur rare et fascinante, nous souhaitons offrir à nos hôtes un lieu spécial au cœur de Milano : un environnement chaleureux, soigné et à l'atmosphère presque familiale, où l'on se sent immédiatement chez soi.\nChoisir Cattleya, c'est vivre Milano avec le confort, la tranquillité et l'attention que seule une hospitalité authentique peut offrir.",
+    "p1": "Le <b>B&B Cattleya</b> tire son nom d'une <b>fleur tropicale</b> symbole d'<b>élégance, de beauté et d'hospitalité</b>.",
+    "p2": "Comme cette fleur rare et fascinante, nous souhaitons offrir à nos hôtes un lieu spécial au <b>cœur de Milano</b> : un environnement chaleureux, soigné et à l'atmosphère presque familiale, où l'on se sent immédiatement chez soi.",
+    "p3": "Choisir Cattleya, c'est vivre Milano avec le <b>confort</b>, la <b>tranquillité</b> et l'attention que seule une hospitalité authentique peut offrir.",
     "readMore": "En savoir plus"
   },
   "location": {
     "title": "Emplacement",
-    "description": "Le Cattleya Bed & Breakfast est situé au cœur du quartier NoLo, au nord-est de Milano, via Perticari 2, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : restaurants, boutiques, supermarchés, pharmacies et banques.",
-    "fullDescription": "Le Cattleya Bed & Breakfast est situé au cœur du quartier NoLo, au nord-est de Milano, via Perticari 2, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : restaurants, boutiques, supermarchés, pharmacies et banques. Il se trouve à 400 mètres de la station de métro Cimiano (Ligne verte) et à quelques pas du Parc de la Martesana. De plus, il est à 15 minutes de l'hôpital San Raffaele.\nCette position stratégique permet de rejoindre confortablement le centre-ville en quelques minutes grâce aux fréquentes liaisons du métro, permettant d'accéder rapidement à des zones d'intérêt majeur comme le Duomo, Brera et Porta Venezia.\nLa structure se trouve également dans une position particulièrement pratique par rapport à l'Hôpital San Raffaele, facilement accessible en quelques minutes, idéale pour ceux qui voyagent pour des raisons de santé ou pour accompagner des membres de leur famille.\nEn même temps, la proximité immédiate du Parc de la Martesana offre l'opportunité de profiter d'agréables promenades, de pistes cyclables et de moments de détente en pleine verdure, rendant le séjour idéal aussi bien pour ceux qui souhaitent explorer Milano que pour ceux qui recherchent tranquillité et nature sans renoncer à la commodité des services urbains."
+    "preview": "Le Cattleya Bed & Breakfast est situé au cœur du <b>quartier NoLo</b>, au nord-est de Milano, <b>via Perticari 2</b>, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : <b>restaurants, boutiques, supermarchés, pharmacies et banques</b>.",
+    "intro": "Le Cattleya Bed & Breakfast est situé au cœur du <b>quartier NoLo</b>, au nord-est de Milano, <b>via Perticari 2</b>, à l'angle de la via Padova, une rue très animée et multiethnique regorgeant de toutes sortes d'établissements : restaurants, boutiques, supermarchés, pharmacies et banques. Il se trouve à <b>400 mètres de la station de métro Cimiano</b> (Ligne verte) et à quelques pas du <b>Parc de la Martesana</b>. Il est à <b>2 km de l'entrée du Périphérique est de Milano</b> qui le relie rapidement aux aéroports de <b>Linate</b> (désormais accessible également avec le métro M4) et <b>Orio al Serio</b>.",
+    "transport": "Cette <b>position stratégique</b> permet de rejoindre confortablement le centre-ville en quelques minutes grâce aux fréquentes liaisons du métro qui permet d'accéder rapidement à des zones d'intérêt majeur comme le <b>Duomo</b>, <b>Brera</b> et <b>Porta Venezia</b>.",
+    "hospital": "La structure se trouve à proximité de l'<b>Hôpital San Raffaele</b>, facilement accessible en 15 minutes, idéale pour ceux qui voyagent pour des raisons de santé.",
+    "park": "La proximité immédiate du <b>Parc de la Martesana</b> offre l'opportunité de profiter d'agréables <b>promenades</b>, <b>pistes cyclables</b> et de moments de détente en pleine verdure.",
+    "metro": {
+      "lineLabel": "Ligne Verte",
+      "distance": "À seulement 400 mètres du B&B Cattleya",
+      "direction": "Direction Cascina Gobba / Gessate / Cologno Nord"
+    }
   },
   "rooms": {
     "title": "Nos Chambres",
@@ -58,9 +68,9 @@
   },
   "footer": {
     "tagline": "Cattleya B&B\nvous offrira le confort que vous méritez",
-    "address": "Adresse : Via Giulio Perticari, Milano",
-    "phone": "Téléphone : +39",
-    "email": "Email : cattleya.nolo",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "Email",
     "facebook": "FACEBOOK",
     "instagram": "INSTAGRAM",
     "twitter": "TWITTER",

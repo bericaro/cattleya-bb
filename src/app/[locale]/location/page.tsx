@@ -69,16 +69,16 @@ export default async function LocationPage() {
               </h1>
               <div className="mt-2 h-[2px] w-16 bg-gradient-to-r from-[#9B51E0] to-[#ED3FC1]" />
               <p className="mt-8 text-sm leading-8 text-[#4F4F4F]">
-                Cattleya Bed &amp; Breakfast è situato nel cuore del <strong>quartiere NoLo</strong>, a nord est di Milano, in <strong>via Perticari 2</strong>, angolo via Padova, via molto vivace e multietnica ricca di locali di ogni tipo: ristoranti, negozi, supermercati, farmacie e banche. È a <strong>400 metri dalla fermata metropolitana di Cimiano</strong> (Linea verde) e a pochi passi dal <strong>Parco della Martesana</strong>. Inoltre, è a <strong>15 minuti dall&apos;ospedale San Raffaele</strong>.
+                {t.rich("intro", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
               <p className="mt-5 text-sm leading-8 text-[#4F4F4F]">
-                Questa <strong>posizione strategica</strong> consente di raggiungere comodamente il centro della città in pochi minuti grazie ai frequenti collegamenti della metropolitana, permettendo di arrivare rapidamente in zone di grande interesse come il <strong>Duomo</strong>, <strong>Brera</strong> e <strong>Porta Venezia</strong>.
+                {t.rich("transport", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
               <p className="mt-5 text-sm leading-8 text-[#4F4F4F]">
-                La struttura si trova inoltre in posizione particolarmente comoda rispetto all&apos;<strong>Ospedale San Raffaele</strong>, facilmente raggiungibile in pochi minuti, risultando ideale per chi viaggia per motivi di salute.
+                {t.rich("hospital", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
               <p className="mt-5 text-sm leading-8 text-[#4F4F4F]">
-                La vicinanza immediata al <strong>Parco della Martesana</strong> offre l&apos;opportunità di godere di piacevoli <strong>passeggiate</strong>, <strong>percorsi ciclabili</strong> e momenti di relax immersi nel verde.
+                {t.rich("park", { b: (chunks) => <strong>{chunks}</strong> })}
               </p>
             </div>
             {/* Small accent image on the side */}
@@ -163,18 +163,18 @@ export default async function LocationPage() {
           <div className="mb-10 flex items-center gap-8 rounded-sm border border-[#18A538]/20 bg-[#18A538]/5 p-8">
             <div className="flex flex-col items-center">
               <span className="flex h-20 w-20 items-center justify-center rounded-full border-4 border-[#18A538] bg-white text-2xl font-black text-[#18A538]">M2</span>
-              <span className="mt-2 text-xs font-bold text-[#18A538]">Linea Verde</span>
+              <span className="mt-2 text-xs font-bold text-[#18A538]">{t("metro.lineLabel")}</span>
             </div>
             <div>
               <p className="text-2xl font-black text-[#4F4F4F]">Cimiano</p>
-              <p className="mt-1 text-sm font-bold text-[#4F4F4F]/70">A soli 400 metri dal B&amp;B Cattleya</p>
-              <p className="mt-1 text-xs text-[#4F4F4F]/50">Direzione Gessate / Cologno Nord</p>
+              <p className="mt-1 text-sm font-bold text-[#4F4F4F]/70">{t("metro.distance")}</p>
+              <p className="mt-1 text-xs text-[#4F4F4F]/50">{t("metro.direction")}</p>
             </div>
           </div>
 
           {/* Metro map - M2 line stops */}
           <div className="mb-10 overflow-x-auto pb-4">
-            <div className="min-w-[700px] px-4">
+            <div className="min-w-[850px] px-4">
               {/* Interchange badges row */}
               <div className="flex items-end justify-between mb-2">
                 {[
@@ -182,9 +182,12 @@ export default async function LocationPage() {
                   { lines: [] as string[] },
                   { lines: [] as string[] },
                   { lines: [] as string[] },
+                  { lines: ["M4"] },
                   { lines: ["M1"] },
                   { lines: [] as string[] },
+                  { lines: [] as string[] },
                   { lines: ["M5"] },
+                  { lines: [] as string[] },
                   { lines: ["M3"] },
                   { lines: [] as string[] },
                   { lines: ["M1"] },
@@ -196,10 +199,10 @@ export default async function LocationPage() {
                   { lines: [] as string[] },
                 ].map((stop, i) => {
                   const lineColors: Record<string, string> = {
-                    M1: "#E4002B", M3: "#F5A623", M5: "#9B51E0",
+                    M1: "#E4002B", M3: "#F5A623", M4: "#0093D9", M5: "#9B51E0",
                   };
                   return (
-                    <div key={i} className="flex w-[calc(100%/16)] justify-center">
+                    <div key={i} className="flex w-[calc(100%/19)] justify-center">
                       {stop.lines.map((line) => (
                         <span
                           key={line}
@@ -216,15 +219,18 @@ export default async function LocationPage() {
               {/* Dots and line row */}
               <div className="relative flex items-center justify-between">
                 {/* Green line behind dots */}
-                <div className="absolute left-[calc(100%/32)] right-[calc(100%/32)] top-1/2 h-[2px] -translate-y-1/2 bg-[#18A538]" />
+                <div className="absolute left-[calc(100%/38)] right-[calc(100%/38)] top-1/2 h-[2px] -translate-y-1/2 bg-[#18A538]" />
                 {[
                   { name: "Assago", highlight: false, interchange: false },
                   { name: "Abbiategrasso", highlight: false, interchange: false },
                   { name: "Famagosta", highlight: false, interchange: false },
                   { name: "P. Genova", highlight: false, interchange: false },
+                  { name: "Sant'Ambrogio", highlight: false, interchange: true },
                   { name: "Cadorna", highlight: false, interchange: true },
+                  { name: "Lanza", highlight: false, interchange: false },
                   { name: "Moscova", highlight: false, interchange: false },
                   { name: "Garibaldi", highlight: false, interchange: true },
+                  { name: "Gioia", highlight: false, interchange: false },
                   { name: "Centrale", highlight: false, interchange: true },
                   { name: "Caiazzo", highlight: false, interchange: false },
                   { name: "Loreto", highlight: false, interchange: true },
@@ -233,9 +239,9 @@ export default async function LocationPage() {
                   { name: "Udine", highlight: false, interchange: false },
                   { name: "Cimiano", highlight: true, interchange: false },
                   { name: "Crescenzago", highlight: false, interchange: false },
-                  { name: "Cologno N.", highlight: false, interchange: false },
+                  { name: "Cascina Gobba", highlight: false, interchange: false },
                 ].map((stop) => (
-                  <div key={stop.name} className="relative z-10 flex w-[calc(100%/16)] flex-col items-center">
+                  <div key={stop.name} className="relative z-10 flex w-[calc(100%/19)] flex-col items-center">
                     <span className={`rounded-full ${
                       stop.highlight
                         ? "h-6 w-6 border-3 border-[#18A538] bg-[#18A538] ring-4 ring-[#18A538]/20"
@@ -250,15 +256,16 @@ export default async function LocationPage() {
               <div className="mt-2 flex items-start justify-between">
                 {[
                   "Assago", "Abbiategrasso", "Famagosta", "P. Genova",
-                  "Cadorna", "Moscova", "Garibaldi", "Centrale",
-                  "Caiazzo", "Loreto", "Piola", "Lambrate",
-                  "Udine", "Cimiano", "Crescenzago", "Cologno N.",
+                  "Sant'Ambrogio", "Cadorna", "Lanza", "Moscova",
+                  "Garibaldi", "Gioia", "Centrale", "Caiazzo",
+                  "Loreto", "Piola", "Lambrate", "Udine",
+                  "Cimiano", "Crescenzago", "Cascina Gobba",
                 ].map((name) => {
                   const isCimiano = name === "Cimiano";
                   return (
                     <span
                       key={name}
-                      className={`w-[calc(100%/16)] text-center text-[8px] leading-tight ${
+                      className={`w-[calc(100%/19)] text-center text-[8px] leading-tight ${
                         isCimiano ? "text-[10px] font-black text-[#18A538]" : "font-medium text-[#4F4F4F]/60"
                       }`}
                     >
