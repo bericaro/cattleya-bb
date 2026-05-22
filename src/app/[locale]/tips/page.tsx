@@ -297,7 +297,7 @@ export default function TipsPage() {
       </section>
 
       {/* Il nostro consiglio */}
-      <section className="pb-16 md:pb-24">
+      <section id="il-nostro-consiglio" className="scroll-mt-28 pb-16 md:pb-24">
         <div className="mx-auto max-w-6xl px-6 md:px-12">
           <div className="mb-8 flex items-center gap-4">
             <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#9B51E0]/20 to-transparent" />
