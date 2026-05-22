@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Volantini personali — mai committare/deployare
+public/volantino-matcha*.html
