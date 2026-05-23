@@ -120,16 +120,8 @@ export default async function HomePage() {
             </div>
             <div className="relative md:col-span-3">
               <div className="flex items-center gap-4">
-                <div className="grid flex-1 grid-cols-2 gap-4">
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-xl">
-                    <Image
-                      src="/images/gallery-1.jpg"
-                      alt="Milano NoLo"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="relative aspect-[3/4] overflow-hidden rounded-sm shadow-xl">
+                <div className="flex-1">
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-sm shadow-xl">
                     <Image
                       src="/images/gallery-2.jpg"
                       alt="Milano NoLo"

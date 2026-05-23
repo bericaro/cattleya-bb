@@ -42,3 +42,7 @@ next-env.d.ts
 
 # Volantini personali — mai committare/deployare
 public/volantino-matcha*.html
+public/images/qr-cattleya.png
+
+# Screenshot temporanei usati come materiale di lavoro
+public/images/Screenshot*.png
