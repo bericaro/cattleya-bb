@@ -47,7 +47,7 @@ const cattleyaReviews: Review[] = [
     name: "Mikayla",
     location: "Ontario, Canada",
     date: "luglio 2022",
-    text: "Posto fantastico. Ho soggiornato qui per quasi 5 mesi ed è stato perfetto. Tutto ciò di cui hai bisogno (inclusi supermercato, farmacia e metropolitana della linea verde) a 5 minuti a piedi. Ottima comunicazione con Luisa. Tutti i problemi che si sono verificati (pochissimi) sono stati risolti rapidamente. Il balcone è la parte migliore: è davvero enorme. Lo consiglierei a chiunque!",
+    text: "Posto fantastico. Ho soggiornato qui ed è stato perfetto. Tutto ciò di cui hai bisogno (inclusi supermercato, farmacia e metropolitana della linea verde) a 5 minuti a piedi. Ottima comunicazione con Luisa. Tutti i problemi che si sono verificati (pochissimi) sono stati risolti rapidamente. Il balcone è la parte migliore: è davvero enorme. Lo consiglierei a chiunque!",
   },
   {
     name: "Paolo",
