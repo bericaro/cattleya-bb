@@ -140,7 +140,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-xs font-bold uppercase tracking-wider text-[#9B51E0]">Indirizzo</p>
-                <p className="mt-1 text-sm text-[#4F4F4F]">Via Giulio Perticari 2 - 20127 Milano</p>
+                <p className="mt-1 text-sm text-[#4F4F4F]">Via Giulio Perticari - 20127 Milano</p>
               </div>
             </div>
 

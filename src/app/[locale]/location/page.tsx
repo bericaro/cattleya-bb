@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Posizione",
-  description: "Cattleya B&B si trova nel quartiere NoLo, Via Perticari 2, Milano. A 400m dalla metro Cimiano M2, vicino Naviglio Martesana, Ospedale San Raffaele. Collegamento diretto con Duomo, Brera, Navigli.",
+  description: "Cattleya B&B si trova nel quartiere NoLo, Via Perticari, Milano. A 400m dalla metro Cimiano M2, vicino Naviglio Martesana, Ospedale San Raffaele. Collegamento diretto con Duomo, Brera, Navigli.",
 };
 
 export default async function LocationPage() {
@@ -113,11 +113,6 @@ export default async function LocationPage() {
           </div>
 
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
-            <div className="group relative overflow-hidden rounded-sm">
-              <div className="relative aspect-[4/3] w-full">
-                <Image src="/images/gallery-1.jpg" alt="NoLo Milano" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
-              </div>
-            </div>
             <div className="group relative overflow-hidden rounded-sm">
               <div className="relative aspect-[4/3] w-full">
                 <Image src="/images/gallery-2.jpg" alt="NoLo Milano" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />

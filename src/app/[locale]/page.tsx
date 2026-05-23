@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Cattleya Bed & Breakfast Milano | B&B NoLo Via Padova",
-  description: "B&B Cattleya nel cuore del quartiere NoLo a Milano, Via Perticari 2. Camere con terrazza, vista skyline, Wi-Fi. A 400m metro Cimiano M2, vicino Naviglio Martesana e Ospedale San Raffaele.",
+  description: "B&B Cattleya nel cuore del quartiere NoLo a Milano, Via Perticari. Camere con terrazza, vista skyline, Wi-Fi. A 400m metro Cimiano M2, vicino Naviglio Martesana e Ospedale San Raffaele.",
 };
 
 export default async function HomePage() {

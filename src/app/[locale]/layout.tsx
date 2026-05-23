@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s | Cattleya B&B Milano",
   },
   description:
-    "Cattleya Bed & Breakfast nel cuore del quartiere NoLo a Milano, Via Perticari 2. Camere eleganti con terrazza panoramica, vista skyline, Wi-Fi, aria condizionata. A 400m dalla metro Cimiano M2. Prenota il tuo soggiorno.",
+    "Cattleya Bed & Breakfast nel cuore del quartiere NoLo a Milano, Via Perticari. Camere eleganti con terrazza panoramica, vista skyline, Wi-Fi, aria condizionata. A 400m dalla metro Cimiano M2. Prenota il tuo soggiorno.",
   keywords: [
     "bed and breakfast milano",
     "b&b milano",
@@ -126,7 +126,7 @@ export default async function LocaleLayout({
               email: "cattleya.nolo@gmail.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Via Giulio Perticari 2",
+                streetAddress: "Via Giulio Perticari",
                 addressLocality: "Milano",
                 postalCode: "20127",
                 addressCountry: "IT",

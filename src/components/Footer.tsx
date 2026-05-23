@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div className="mt-6 space-y-2">
               <p className="text-xs font-bold text-white">
-                {t("addressLabel")}: Via Giulio Perticari 2, 20127 Milano
+                {t("addressLabel")}: Via Giulio Perticari, 20127 Milano
               </p>
               <p className="text-xs font-bold text-white">
                 {t("phoneLabel")}: +39 338 827 7390 — +39 340 160 3940
