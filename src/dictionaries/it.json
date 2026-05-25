@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "Chi Siamo",
-    "p1": "Il <b>B&B Cattleya</b> prende il suo nome da un <b>fiore tropicale</b> simbolo di <b>eleganza, bellezza e accoglienza</b>.",
+    "p1": "Il <b>B&B Cattleya</b> prende il suo nome da un <b>fiore tropicale</b> simbolo di <b>eleganza e bellezza</b>.",
     "p2": "Come questo fiore raro e affascinante, vogliamo offrire ai nostri ospiti un luogo speciale nel <b>cuore di Milano</b>: un ambiente caldo, curato e dal clima quasi familiare, dove sentirsi subito a casa.",
     "p3": "Scegliere Cattleya significa vivere Milano con il <b>comfort</b>, la <b>tranquillità</b> e l'attenzione che solo un'accoglienza autentica sa offrire.",
     "readMore": "Leggi di più"
@@ -37,15 +37,32 @@
     "viewRooms": "Guarda",
     "cattleya": {
       "name": "CATTLEYA",
-      "description": "La camera Cattleya si trova all'ultimo piano di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano. È attrezzata per ospitare fino a 2 persone, grazie a un comodo divano letto alla francese.\nLa camera, arredata in stile moderno, dispone di un angolo cottura, bagno privato e di un'ampia terrazza, ideale per momenti di relax. È dotata di tutti i principali comfort: TV, connessione Wi-Fi, aria condizionata e zanzariere, per garantire un soggiorno piacevole in ogni periodo dell'anno.\nL'angolo cottura è completo di frigorifero, forno a microonde, due piastre a induzione, bollitore, stoviglie e pentole. Il bagno privato è provvisto di un'ampia doccia, asciugacapelli e lavatrice."
+      "paragraphs": {
+        "p1": "L'ampia <b>camera Cattleya</b> è una soluzione confortevole e versatile, ideale per ospitare <b>fino a 2 persone</b> grazie a un <b>comodo divano letto alla francese</b>. Situata al 6° piano di un edificio con ascensore, gode di una splendida vista sullo skyline di Milano ed è arredata in stile moderno con ambienti luminosi e curati nei dettagli.",
+        "p2": "La camera è dotata di tutti i comfort essenziali — <b>TV, aria condizionata, zanzariere e Wi-Fi</b> — ed è progettata per garantire praticità e autonomia durante la permanenza. Con un semplice gesto, il letto può essere richiuso trasformandosi in un comodo divano, così da rendere l'ambiente ancora più spazioso e vivibile.",
+        "p3": "<b>L'angolo cottura</b>, completamente attrezzato, dispone di frigorifero, forno a microonde, due piastre a induzione, bollitore, stoviglie e pentole, ideale per preparare pasti in totale indipendenza.",
+        "p4": "Il <b>bagno privato</b> è completo di un'ampia doccia, asciugacapelli e lavatrice.",
+        "p5": "A completare la struttura, <b>un'ampia terrazza attrezzata</b> rappresenta uno spazio piacevole e riservato dove rilassarsi all'aria aperta e godersi momenti di tranquillità durante il soggiorno."
+      }
     },
     "matcha": {
       "name": "MATCHA",
-      "description": "Questo grazioso monolocale di 30 mq si trova al 6° piano di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano, sui tetti della vecchia Milano vicino a Via Padova e al Naviglio Martesana fino ad arrivare al nuovo skyline di piazza Gae Aulenti con la Unicredit Tower, il grattacielo più alto d'Italia, e più in là alla Madonnina del nostro Duomo.\nIl monolocale, dotato di tutti i comfort, televisione, aria condizionata e collegamento Wi-Fi, è composto da una grande camera arredata in stile moderno. La struttura è attrezzata per ospitare 2 persone: i letti singoli possono diventare un comodo letto matrimoniale.\nUn monoblocco ospita un angolo cottura attrezzato di tutto punto: frigorifero, forno a microonde, due piastre ad induzione. Completano l'arredamento un tavolo console, una scrivania, una cassettiera, sedie, una poltroncina e una cabina armadio posta nell'antibagno. Il bagno finestrato è dotato di un'ampia doccia, asciugacapelli e prodotti di cortesia.\nIl punto forte della struttura è il terrazzo attrezzato con tavolino e sedie per poter pranzare all'aria aperta e corredato da una piccola veranda."
+      "paragraphs": {
+        "p1": "Questo grazioso <b>monolocale di 30 mq</b> si trova al <b>6° piano</b> di un edificio con ascensore e gode di una splendida vista sullo skyline di Milano, sui tetti della vecchia Milano vicino a Via Padova e al Naviglio Martesana fino ad arrivare al nuovo skyline di piazza Gae Aulenti con la Unicredit Tower.",
+        "p2": "Il monolocale, dotato di tutti i comfort — <b>TV, aria condizionata e Wi-Fi</b> — è composto da una grande camera arredata in stile moderno. La struttura è attrezzata per ospitare <b>2 persone</b>: i letti singoli possono diventare un comodo <b>letto matrimoniale</b>.",
+        "p3": "Un monoblocco ospita un <b>angolo cottura</b> attrezzato: frigorifero, forno a microonde, due piastre ad induzione. Il <b>bagno finestrato</b> è dotato di un'ampia doccia, asciugacapelli e prodotti di cortesia.",
+        "p4": "Il punto forte è il <b>terrazzo attrezzato</b> con tavolino e sedie per pranzare all'aria aperta, corredato da una piccola <b>veranda</b>."
+      }
     },
     "sakura": {
       "name": "SAKURA",
-      "description": "La camera Sakura è una soluzione accogliente e funzionale, ideale per ospitare una persona. Arredata in stile moderno, offre ambienti curati e luminosi, pensati per garantire comfort e praticità durante il soggiorno. La camera dispone di un angolo cottura completamente attrezzato con frigorifero, forno a microonde, due piastre a induzione e bollitore, perfetto per preparare pasti in autonomia.\nIl bagno privato è dotato di doccia, asciugacapelli e kit di cortesia. L'alloggio è inoltre provvisto di tutti i principali comfort, tra cui TV, connessione Wi-Fi, aria condizionata e zanzariere. A completare la struttura, un'ampia terrazza che rappresenta uno spazio ideale per momenti di relax, rendendo la camera Sakura una scelta perfetta sia per brevi soggiorni sia per permanenze più lunghe."
+      "paragraphs": {
+        "p1": "La <b>camera Sakura</b> è una soluzione accogliente e funzionale, ideale per ospitare <b>una persona</b>. Situata in un ambiente tranquillo e luminoso al <b>6° piano</b> di un edificio con ascensore, è arredata in stile moderno con attenzione ai dettagli, per offrire un soggiorno confortevole e rilassante.",
+        "p2": "La camera è dotata di tutti i comfort essenziali — <b>TV, aria condizionata, zanzariere e Wi-Fi</b> — ed è pensata per garantire praticità e autonomia durante la permanenza.",
+        "p3": "<b>L'angolo cottura</b>, completamente attrezzato, dispone di frigorifero, forno a microonde, due piastre a induzione e bollitore, ideale per preparare pasti in totale indipendenza.",
+        "p4": "Il <b>bagno privato</b> è completo di doccia, asciugacapelli e prodotti di cortesia.",
+        "p5": "A completare la struttura, <b>un'ampia terrazza attrezzata</b> con tavolino e sedie rappresenta uno spazio piacevole e riservato dove rilassarsi all'aria aperta, leggere un libro o godersi momenti di tranquillità durante il soggiorno."
+      }
     }
   },
   "gallery": {

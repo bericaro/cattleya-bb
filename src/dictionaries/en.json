@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "About Cattleya",
-    "p1": "The <b>Cattleya B&B</b> takes its name from a <b>tropical flower</b> symbolizing <b>elegance, beauty and hospitality</b>.",
+    "p1": "<b>Cattleya B&B</b> takes its name from a <b>tropical flower</b> symbolizing <b>elegance and beauty</b>.",
     "p2": "Like this rare and fascinating flower, we want to offer our guests a special place in the <b>heart of Milano</b>: a warm, well-kept environment with an almost familiar atmosphere, where you can immediately feel at home.",
     "p3": "Choosing Cattleya means experiencing Milano with the <b>comfort</b>, <b>tranquility</b> and attention that only authentic hospitality can offer.",
     "readMore": "Read more"
@@ -37,15 +37,32 @@
     "viewRooms": "View",
     "cattleya": {
       "name": "CATTLEYA",
-      "description": "The Cattleya room is located on the top floor of a building with an elevator and enjoys a splendid view of the Milano skyline. It is equipped to accommodate up to 2 people, thanks to a comfortable French-style sofa bed. The room, furnished in a modern style, features a kitchenette, private bathroom, and a large terrace, ideal for moments of relaxation. The apartment is equipped with all the main comforts: TV, Wi-Fi, air conditioning, and mosquito screens, to ensure a pleasant stay in every season. The kitchenette is complete with a refrigerator, microwave, two induction plates, kettle, dishes, and pots. The private bathroom is equipped with a large shower, hairdryer, and washing machine."
+      "paragraphs": {
+        "p1": "The spacious <b>Cattleya room</b> is a comfortable and versatile choice, perfect for accommodating <b>up to 2 guests</b> thanks to a <b>convenient French-style sofa bed</b>. Located on the 6th floor of a building with an elevator, it offers a stunning view of the Milano skyline and is furnished in a modern style with bright, carefully detailed interiors.",
+        "p2": "The room is equipped with all essential comforts — <b>TV, air conditioning, mosquito screens and Wi-Fi</b> — and is designed to ensure practicality and independence during your stay. With a simple gesture, the bed can be folded back into a comfortable sofa, making the space even more roomy and livable.",
+        "p3": "<b>The kitchenette</b>, fully equipped, features a refrigerator, microwave, two induction hobs, kettle, dishes and pots, perfect for preparing meals in complete independence.",
+        "p4": "The <b>private bathroom</b> is complete with a spacious shower, hair dryer and washing machine.",
+        "p5": "Completing the apartment, <b>a large furnished terrace</b> offers a pleasant and private space where you can relax outdoors and enjoy moments of tranquillity during your stay."
+      }
     },
     "matcha": {
       "name": "MATCHA",
-      "description": "This charming 30 sqm studio apartment is located on the 6th floor of a building with an elevator and enjoys a splendid view of the Milano skyline, over the rooftops of old Milano near Via Padova and the Naviglio Martesana, all the way to the new skyline of Piazza Gae Aulenti with the Unicredit Tower, the tallest skyscraper in Italy, and further to the Madonnina of our Duomo.\nThe studio, equipped with all comforts, television, air conditioning and Wi-Fi, features a large room furnished in modern style. The property can accommodate 2 people: the single beds can become a comfortable double bed.\nA kitchenette is fully equipped with a refrigerator, microwave, and two induction plates. The furnishings include a console table, a desk, a chest of drawers, chairs, an armchair, and a walk-in closet located in the bathroom anteroom. The windowed bathroom is equipped with a large shower, hairdryer, and courtesy products.\nThe highlight of the property is the terrace equipped with a table and chairs for outdoor dining, complete with a small veranda."
+      "paragraphs": {
+        "p1": "This charming <b>30 sqm studio</b> is located on the <b>6th floor</b> of a building with an elevator and enjoys a stunning view of the Milano skyline — from the rooftops of old Milano near Via Padova and the Naviglio Martesana, all the way to the new skyline of Piazza Gae Aulenti with the Unicredit Tower.",
+        "p2": "The studio, equipped with every comfort — <b>TV, air conditioning and Wi-Fi</b> — features a large room furnished in a modern style. The space is set up to accommodate <b>2 guests</b>: the two single beds can be joined to form a comfortable <b>double bed</b>.",
+        "p3": "A self-contained unit houses a fully equipped <b>kitchenette</b>: refrigerator, microwave, two induction hobs. The <b>bathroom with window</b> is equipped with a spacious shower, hair dryer and courtesy products.",
+        "p4": "The highlight is the <b>furnished terrace</b> with table and chairs to dine outdoors, complemented by a small <b>veranda</b>."
+      }
     },
     "sakura": {
       "name": "SAKURA",
-      "description": "The Sakura room is a cozy and functional solution, ideal for hosting one person. Furnished in a modern style, it offers well-kept and bright spaces, designed to guarantee comfort and practicality during your stay. The room features a fully equipped kitchenette with a refrigerator, microwave, two induction plates, and kettle, perfect for preparing meals independently. The private bathroom is equipped with a shower, hairdryer, and courtesy kit. The accommodation also includes all the main comforts, including TV, Wi-Fi, air conditioning, and mosquito screens. Completing the structure is a large terrace that represents an ideal space for moments of relaxation, making the Sakura room a perfect choice for both short stays and longer stays."
+      "paragraphs": {
+        "p1": "The <b>Sakura room</b> is a welcoming and functional choice, ideal for accommodating <b>one guest</b>. Set in a quiet and bright space on the <b>6th floor</b> of a building with an elevator, it is furnished in a modern style with attention to detail to offer a comfortable and relaxing stay.",
+        "p2": "The room is equipped with all essential comforts — <b>TV, air conditioning, mosquito screens and Wi-Fi</b> — designed to ensure practicality and independence during your stay.",
+        "p3": "<b>The kitchenette</b>, fully equipped, features a refrigerator, microwave, two induction hobs and kettle, perfect for preparing meals in complete independence.",
+        "p4": "The <b>private bathroom</b> is complete with shower, hair dryer and courtesy products.",
+        "p5": "Completing the apartment, <b>a large furnished terrace</b> with table and chairs offers a pleasant and private space where you can relax outdoors, read a book or enjoy moments of tranquillity during your stay."
+      }
     }
   },
   "gallery": {

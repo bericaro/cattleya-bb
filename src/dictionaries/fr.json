@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "À propos de Cattleya",
-    "p1": "Le <b>B&B Cattleya</b> tire son nom d'une <b>fleur tropicale</b> symbole d''<b>élégance, de beauté et d'hospitalité</b>.",
+    "p1": "Le <b>B&B Cattleya</b> tire son nom d'une <b>fleur tropicale</b> symbole d''<b>élégance et de beauté</b>.",
     "p2": "Comme cette fleur rare et fascinante, nous souhaitons offrir à nos hôtes un lieu spécial au <b>cœur de Milano</b> : un environnement chaleureux, soigné et à l'atmosphère presque familiale, où l'on se sent immédiatement chez soi.",
     "p3": "Choisir Cattleya, c'est vivre Milano avec le <b>confort</b>, la <b>tranquillité</b> et l'attention que seule une hospitalité authentique peut offrir.",
     "readMore": "En savoir plus"
@@ -37,15 +37,32 @@
     "viewRooms": "Voir",
     "cattleya": {
       "name": "CATTLEYA",
-      "description": "La chambre Cattleya est située au dernier étage d'un immeuble avec ascenseur et bénéficie d'une vue splendide sur la skyline de Milano. Elle est équipée pour accueillir jusqu'à 2 personnes, grâce à un confortable canapé-lit à la française. La chambre, meublée dans un style moderne, dispose d'une kitchenette, d'une salle de bain privée et d'une grande terrasse, idéale pour des moments de détente. L'appartement est doté de tous les principaux conforts : TV, connexion Wi-Fi, climatisation et moustiquaires, pour garantir un séjour agréable en toute saison. La kitchenette est complète avec réfrigérateur, four à micro-ondes, deux plaques à induction, bouilloire, vaisselle et casseroles. La salle de bain privée est équipée d'une grande douche, d'un sèche-cheveux et d'une machine à laver."
+      "paragraphs": {
+        "p1": "La spacieuse <b>chambre Cattleya</b> est une solution confortable et polyvalente, idéale pour accueillir <b>jusqu'à 2 personnes</b> grâce à un <b>confortable canapé-lit à la française</b>. Située au 6ème étage d'un immeuble avec ascenseur, elle bénéficie d'une vue splendide sur le skyline de Milano et est meublée dans un style moderne avec des espaces lumineux et soignés dans les moindres détails.",
+        "p2": "La chambre est équipée de tous les conforts essentiels — <b>TV, climatisation, moustiquaires et Wi-Fi</b> — et est conçue pour garantir praticité et autonomie pendant le séjour. D'un simple geste, le lit peut être replié et se transformer en canapé confortable, rendant l'espace encore plus vaste et agréable à vivre.",
+        "p3": "<b>Le coin cuisine</b>, entièrement équipé, dispose d'un réfrigérateur, four à micro-ondes, deux plaques à induction, bouilloire, vaisselle et casseroles, idéal pour préparer des repas en toute autonomie.",
+        "p4": "La <b>salle de bain privée</b> est complète avec grande douche, sèche-cheveux et machine à laver.",
+        "p5": "Pour compléter la structure, <b>une vaste terrasse aménagée</b> représente un espace agréable et privé où se détendre en plein air et profiter de moments de tranquillité pendant le séjour."
+      }
     },
     "matcha": {
       "name": "MATCHA",
-      "description": "Ce charmant studio de 30 m² se trouve au 6ème étage d'un immeuble avec ascenseur et bénéficie d'une splendide vue sur la skyline de Milano, sur les toits du vieux Milano près de Via Padova et du Naviglio Martesana, jusqu'à la nouvelle skyline de Piazza Gae Aulenti avec la Unicredit Tower, le gratte-ciel le plus haut d'Italie, et plus loin la Madonnina de notre Duomo.\nLe studio, doté de tout le confort, télévision, climatisation et Wi-Fi, comprend une grande chambre meublée dans un style moderne. La structure peut accueillir 2 personnes : les lits simples peuvent devenir un confortable lit double.\nUn bloc cuisine est entièrement équipé : réfrigérateur, four à micro-ondes, deux plaques à induction. Le mobilier comprend une table console, un bureau, une commode, des chaises, un fauteuil et un dressing situé dans l'antichambre de la salle de bain. La salle de bain avec fenêtre est dotée d'une grande douche, d'un sèche-cheveux et de produits de courtoisie.\nLe point fort de la structure est la terrasse équipée d'une table et de chaises pour déjeuner en plein air, complétée par une petite véranda."
+      "paragraphs": {
+        "p1": "Ce charmant <b>studio de 30 m²</b> se trouve au <b>6ème étage</b> d'un immeuble avec ascenseur et bénéficie d'une vue splendide sur le skyline de Milano, sur les toits du vieux Milano près de Via Padova et du Naviglio Martesana jusqu'au nouveau skyline de Piazza Gae Aulenti avec la Unicredit Tower.",
+        "p2": "Le studio, équipé de tous les conforts — <b>TV, climatisation et Wi-Fi</b> — se compose d'une grande chambre meublée dans un style moderne. La structure est aménagée pour accueillir <b>2 personnes</b> : les lits simples peuvent devenir un confortable <b>lit double</b>.",
+        "p3": "Un monobloc abrite un <b>coin cuisine</b> entièrement équipé : réfrigérateur, four à micro-ondes, deux plaques à induction. La <b>salle de bain avec fenêtre</b> dispose d'une grande douche, sèche-cheveux et produits d'accueil.",
+        "p4": "Le point fort est la <b>terrasse aménagée</b> avec table et chaises pour déjeuner en plein air, complétée par une petite <b>véranda</b>."
+      }
     },
     "sakura": {
       "name": "SAKURA",
-      "description": "La chambre Sakura est une solution accueillante et fonctionnelle, idéale pour accueillir une personne. Meublée dans un style moderne, elle offre des espaces soignés et lumineux, conçus pour garantir confort et praticité durant le séjour. La chambre dispose d'une kitchenette entièrement équipée avec réfrigérateur, four à micro-ondes, deux plaques à induction et bouilloire, parfaite pour préparer des repas en autonomie. La salle de bain privée est dotée d'une douche, d'un sèche-cheveux et d'un kit de courtoisie. Le logement est également pourvu de tous les principaux conforts, dont TV, Wi-Fi, climatisation et moustiquaires. La structure est complétée par une grande terrasse qui représente un espace idéal pour des moments de détente, faisant de la chambre Sakura un choix parfait pour les courts séjours comme pour les séjours prolongés."
+      "paragraphs": {
+        "p1": "La <b>chambre Sakura</b> est une solution accueillante et fonctionnelle, idéale pour accueillir <b>une personne</b>. Située dans un environnement calme et lumineux au <b>6ème étage</b> d'un immeuble avec ascenseur, elle est meublée dans un style moderne avec une attention particulière aux détails, pour offrir un séjour confortable et relaxant.",
+        "p2": "La chambre est équipée de tous les conforts essentiels — <b>TV, climatisation, moustiquaires et Wi-Fi</b> — et est pensée pour garantir praticité et autonomie pendant le séjour.",
+        "p3": "<b>Le coin cuisine</b>, entièrement équipé, dispose d'un réfrigérateur, four à micro-ondes, deux plaques à induction et bouilloire, idéal pour préparer des repas en toute autonomie.",
+        "p4": "La <b>salle de bain privée</b> est complète avec douche, sèche-cheveux et produits d'accueil.",
+        "p5": "Pour compléter la structure, <b>une vaste terrasse aménagée</b> avec table et chaises représente un espace agréable et privé où se détendre en plein air, lire un livre ou profiter de moments de tranquillité pendant le séjour."
+      }
     }
   },
   "gallery": {

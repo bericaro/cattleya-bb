@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "Sobre Cattleya",
-    "p1": "El <b>B&B Cattleya</b> toma su nombre de una <b>flor tropical</b> símbolo de <b>elegancia, belleza y hospitalidad</b>.",
+    "p1": "El <b>B&B Cattleya</b> toma su nombre de una <b>flor tropical</b> símbolo de <b>elegancia y belleza</b>.",
     "p2": "Como esta flor rara y fascinante, queremos ofrecer a nuestros huéspedes un lugar especial en el <b>corazón de Milano</b>: un ambiente cálido, cuidado y con un clima casi familiar, donde sentirse inmediatamente como en casa.",
     "p3": "Elegir Cattleya significa vivir Milano con el <b>confort</b>, la <b>tranquilidad</b> y la atención que solo una hospitalidad auténtica puede ofrecer.",
     "readMore": "Leer más"
@@ -37,15 +37,32 @@
     "viewRooms": "Ver",
     "cattleya": {
       "name": "CATTLEYA",
-      "description": "La habitación Cattleya está ubicada en el último piso de un edificio con ascensor y disfruta de una espléndida vista del skyline de Milano. Está equipada para alojar hasta 2 personas, gracias a un cómodo sofá cama a la francesa. La habitación, amueblada en estilo moderno, dispone de cocina americana, baño privado y una amplia terraza, ideal para momentos de relax. El apartamento está dotado de todas las comodidades principales: TV, conexión Wi-Fi, aire acondicionado y mosquiteras, para garantizar una estancia agradable en cualquier época del año. La cocina americana cuenta con frigorífico, microondas, dos placas de inducción, hervidor, vajilla y ollas. El baño privado está equipado con una amplia ducha, secador de pelo y lavadora."
+      "paragraphs": {
+        "p1": "La amplia <b>habitación Cattleya</b> es una solución cómoda y versátil, ideal para alojar <b>hasta 2 personas</b> gracias a un <b>cómodo sofá cama francés</b>. Situada en el 6º piso de un edificio con ascensor, goza de unas espléndidas vistas al skyline de Milano y está amueblada en estilo moderno con ambientes luminosos y cuidados en los detalles.",
+        "p2": "La habitación cuenta con todas las comodidades esenciales — <b>TV, aire acondicionado, mosquiteras y Wi-Fi</b> — y está diseñada para garantizar practicidad y autonomía durante la estancia. Con un simple gesto, la cama puede cerrarse y transformarse en un cómodo sofá, haciendo el ambiente aún más espacioso y habitable.",
+        "p3": "<b>La cocina americana</b>, totalmente equipada, dispone de frigorífico, microondas, dos placas de inducción, hervidor, vajilla y ollas, ideal para preparar comidas con total independencia.",
+        "p4": "El <b>baño privado</b> está completo con una amplia ducha, secador de pelo y lavadora.",
+        "p5": "Para completar la estructura, <b>una amplia terraza equipada</b> representa un espacio agradable y reservado donde relajarse al aire libre y disfrutar de momentos de tranquilidad durante la estancia."
+      }
     },
     "matcha": {
       "name": "MATCHA",
-      "description": "Este encantador estudio de 30 m² se encuentra en el 6° piso de un edificio con ascensor y disfruta de una espléndida vista del skyline de Milano, sobre los tejados del viejo Milano cerca de Via Padova y del Naviglio Martesana, hasta llegar al nuevo skyline de Piazza Gae Aulenti con la Unicredit Tower, el rascacielos más alto de Italia, y más allá la Madonnina de nuestro Duomo.\nEl estudio, dotado de todas las comodidades, televisión, aire acondicionado y Wi-Fi, cuenta con una gran habitación amueblada en estilo moderno. La estructura puede alojar a 2 personas: las camas individuales pueden convertirse en una cómoda cama de matrimonio.\nUna cocina americana está completamente equipada: frigorífico, microondas, dos placas de inducción. Completan el mobiliario una mesa consola, un escritorio, una cómoda, sillas, un sillón y un vestidor situado en el anterbaño. El baño con ventana está equipado con una amplia ducha, secador de pelo y productos de cortesía.\nEl punto fuerte de la estructura es la terraza equipada con mesa y sillas para almorzar al aire libre, complementada con una pequeña veranda."
+      "paragraphs": {
+        "p1": "Este encantador <b>monoambiente de 30 m²</b> se encuentra en el <b>6º piso</b> de un edificio con ascensor y goza de unas vistas espléndidas al skyline de Milano, sobre los tejados del viejo Milano cerca de Via Padova y del Naviglio Martesana hasta llegar al nuevo skyline de Piazza Gae Aulenti con la Unicredit Tower.",
+        "p2": "El monoambiente, dotado de todas las comodidades — <b>TV, aire acondicionado y Wi-Fi</b> — se compone de una gran habitación amueblada en estilo moderno. La estructura está preparada para alojar a <b>2 personas</b>: las camas individuales pueden convertirse en una cómoda <b>cama de matrimonio</b>.",
+        "p3": "Un monobloque alberga una <b>cocina americana</b> totalmente equipada: frigorífico, microondas, dos placas de inducción. El <b>baño con ventana</b> dispone de una amplia ducha, secador de pelo y productos de cortesía.",
+        "p4": "El punto fuerte es la <b>terraza equipada</b> con mesa y sillas para comer al aire libre, complementada con una pequeña <b>galería acristalada</b>."
+      }
     },
     "sakura": {
       "name": "SAKURA",
-      "description": "La habitación Sakura es una solución acogedora y funcional, ideal para alojar a una persona. Amueblada en estilo moderno, ofrece ambientes cuidados y luminosos, pensados para garantizar confort y practicidad durante la estancia. La habitación dispone de una cocina americana completamente equipada con frigorífico, microondas, dos placas de inducción y hervidor, perfecta para preparar comidas de forma autónoma. El baño privado cuenta con ducha, secador de pelo y kit de cortesía. El alojamiento está además provisto de todas las comodidades principales, incluyendo TV, Wi-Fi, aire acondicionado y mosquiteras. La estructura se completa con una amplia terraza que representa un espacio ideal para momentos de relax, haciendo de la habitación Sakura una elección perfecta tanto para estancias cortas como prolongadas."
+      "paragraphs": {
+        "p1": "La <b>habitación Sakura</b> es una solución acogedora y funcional, ideal para alojar a <b>una persona</b>. Situada en un ambiente tranquilo y luminoso en el <b>6º piso</b> de un edificio con ascensor, está amueblada en estilo moderno con atención a los detalles, para ofrecer una estancia cómoda y relajante.",
+        "p2": "La habitación cuenta con todas las comodidades esenciales — <b>TV, aire acondicionado, mosquiteras y Wi-Fi</b> — y está pensada para garantizar practicidad y autonomía durante la estancia.",
+        "p3": "<b>La cocina americana</b>, totalmente equipada, dispone de frigorífico, microondas, dos placas de inducción y hervidor, ideal para preparar comidas con total independencia.",
+        "p4": "El <b>baño privado</b> está completo con ducha, secador de pelo y productos de cortesía.",
+        "p5": "Para completar la estructura, <b>una amplia terraza equipada</b> con mesa y sillas representa un espacio agradable y reservado donde relajarse al aire libre, leer un libro o disfrutar de momentos de tranquilidad durante la estancia."
+      }
     }
   },
   "gallery": {
